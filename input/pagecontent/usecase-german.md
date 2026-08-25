@@ -8,7 +8,7 @@ erfasst werden können. Die Daten sollen mittels FHIR ausgetauscht werden.
 
 ## Fachliche Anforderungen
 
-### 1. Patientendaten
+### Patientendaten
 
 Es muss möglich sein, folgende Angaben zu einer Patientin/einem Patienten zu erfassen:
 
@@ -21,7 +21,7 @@ Es muss möglich sein, folgende Angaben zu einer Patientin/einem Patienten zu er
 | Heimatort (placeOfOrigin) | Ja – relevant für eindeutige Identifikation im CH-Kontext |
 | AHV-Nummer | Optional – Wenn vorhanden erfassen |
 
-### 2. Laborresultate
+### Laborresultate
 
 Im Zusammenhang mit Impfungen sollen auch Laborresultate (z. B. serologische Tests) 
 erfasst werden können:
@@ -34,7 +34,7 @@ erfasst werden können:
 | Testresultat (z. B. Titer-Wert) | Ja |
 | Die Person/Organisation, die die Laboranalyse durchführt| Nein |
 
-### 3. Impfungen
+### Impfungen
 
 Neu soll auch die eigentliche Impfung erfasst werden können:
 
