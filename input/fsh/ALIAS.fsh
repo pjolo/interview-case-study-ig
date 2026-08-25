@@ -6,6 +6,6 @@ Alias: $icd10 =                         http://fhir.de/CodeSystem/bfarm/icd-10-g
 Alias: $ucum =                          http://unitsofmeasure.org
 
 
-//CH Core Profiles
+//CH Profiles
 Alias: $ch-core-patient =                http://fhir.ch/ig/ch-core/StructureDefinition/ch-core-patient
-Alias: $ch-vacd-laboratory-serology =    https://fhir.ch/ig/ch-vacd/StructureDefinition-ch-vacd-laboratory-serology
+Alias: $ch-vacd-laboratory-serology =    http://fhir.ch/ig/ch-vacd/StructureDefinition/ch-vacd-laboratory-serology
