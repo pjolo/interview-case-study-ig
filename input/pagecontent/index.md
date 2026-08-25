@@ -55,6 +55,15 @@ D.) Um mehrere FHIR-Server miteinander zu synchronisieren.
 
 ***Bitte schreiben Sie die Antwort in eine Word-Datei oder in einer Text-Datei. Den jeweiligen Buchstaben der Antwort reicht.***
 
+### Aufgaben 2 - Analyse eines FHIR-Implementierungsleitfadens
+Lesen Sie den [Use Case](usecase-german.html) aufmerksam durch, insbesondere die 
+Abschnitte **"Patientendaten"** und **"Laborresultate"**.
+
+Analysieren Sie die im Implementierungsleitfaden enthaltenen [Profile](profiles.html). und prüfen Sie, ob diese die im Use Case beschriebenen fachlichen Anforderungen korrekt abbilden. Identifizieren Sie die Fehler (Hinweis: Vergleich mit [CH Core](https://fhir.ch/ig/ch-core/6.0.0/index.html)) und beschreiben Sie, welche Anpassungen Sie machen würden.
+
+***Bitte schreiben Sie die Antwort in eine Word-Datei oder in einer Text-Datei.***
+
+`InterviewCase-Patient` und `InterviewCase-LabResult`...
 Prüfen Sie die im IG enthaltene Patient-Ressource. Identifizieren Sie den strukturellen Fehler (Hinweis: Vergleich mit CH Core) und beschreiben Sie, welche Ressource/welches Profil korrekt verwendet werden müsste und warum.
 
 **2. Terminologie (SNOMED CT)**

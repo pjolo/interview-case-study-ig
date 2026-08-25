@@ -1,5 +1,5 @@
 Profile: CHIgPatient
-Parent: $ch-core-patient
+Parent: Patient
 Id: CHIgPatient
 Title: "CH IG Patient"
 Description: "Example profile defining a Patient resource."

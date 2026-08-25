@@ -8,3 +8,4 @@ Alias: $ucum =                          http://unitsofmeasure.org
 
 //CH Core Profiles
 Alias: $ch-core-patient =                http://fhir.ch/ig/ch-core/StructureDefinition/ch-core-patient
+Alias: $ch-vacd-laboratory-serology =    https://fhir.ch/ig/ch-vacd/6.0.0/StructureDefinition-ch-vacd-laboratory-serology.html
