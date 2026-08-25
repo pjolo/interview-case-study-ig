@@ -12,8 +12,7 @@ Description: "Profil zur Erfassung von Laborresultaten (z. B. serologische Tests
 
 * subject 1..1 MS
 
-
-* value[x] 0..1 MS
+* value[x] 1..1 MS
 * value[x] only Quantity
 
 * performer 1..* MS
