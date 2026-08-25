@@ -12,7 +12,7 @@ Description: "Profil zur Erfassung von Laborresultaten (z. B. serologische Tests
 * code 1..1 MS
 
 * subject 1..1 MS
-* subject only Reference(InterviewCasePatient)
+* subject only Reference(CHIgPatient)
 
 * effective[x] 1..1 MS
 * effective[x] only dateTime
