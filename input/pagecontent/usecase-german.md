@@ -12,6 +12,7 @@ erfasst werden können. Die Daten sollen mittels FHIR ausgetauscht werden.
 
 Es muss möglich sein, folgende Angaben zu einer Patientin/einem Patienten zu erfassen:
 
+{:class="table table-bordered"}
 | Angabe | Zwingend? |
 |---|---|
 | Name | Ja |
