@@ -1,15 +1,22 @@
 ### Introduction
-**CH IG** is a template for creating a FHIR implementation guide (IG) published by [HL7 Switzerland](https://www.hl7.ch/).     
-The source is available in the [GitHub Repository](https://github.com/ahdis/ch-ig).
+Willkommen zur Fallstudie im Rahmen des Bewerbungsprozesses.
 
-For detailed instructions and best practice approaches for developing implementation guides, see the [Guidance](guidance.html) page.
+Dieser Implementation Guide (IG) enthält Beispiel-Ressourcen, die im Rahmen dieser Aufgabe analysiert werden sollen.
 
-{% include dependencies-igs.svg %}
-*Fig. 2: Dependencies*
+## Aufgaben
 
-<span style="color: red;"><em>✂️ Template starts here - delete the informative part above for your own IG ✂️</em></span>
+**1. Ressourcen-Analyse**
+Prüfen Sie die im IG enthaltene Patient-Ressource. Identifizieren Sie den strukturellen Fehler (Hinweis: Vergleich mit CH Core) und beschreiben Sie, welche Ressource/welches Profil korrekt verwendet werden müsste und warum.
 
----
+**2. Terminologie (SNOMED CT)**
+Ordnen Sie dem vorgegebenen Begriff den korrekten SNOMED-CT-Term zu und wenden Sie dabei die mitgelieferte Übersetzungsrichtlinie an.
+
+**3. Ballot-Kommentar**
+Formulieren Sie einen Kommentar, wie Sie den gefundenen Fehler im Rahmen eines Ballot-Kommentarverfahrens einreichen würden (Referenz/Feld, Problembeschreibung, Verbesserungsvorschlag).
+
+Bitte erfassen Sie Ihre Antworten in einer Text- oder Word-Datei.
+
+Viel Erfolg!
 
 <div markdown="1" class="stu-note">
 
