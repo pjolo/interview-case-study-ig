@@ -27,7 +27,7 @@ erfasst werden können:
 
 | Angabe | Zwingend? |
 |---|---|
-| Referenz auf Patient | Ja |
+| Referenz auf Patient | Nein |
 | Test-Code  | Ja |
 | Testresultat (z. B. Titer-Wert) | Ja |
 | Die Person/Organisation, die die Laboranalyse durchführt| Nein |

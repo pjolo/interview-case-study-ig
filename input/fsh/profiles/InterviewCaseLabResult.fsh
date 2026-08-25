@@ -10,7 +10,7 @@ Description: "Profil zur Erfassung von Laborresultaten (z. B. serologische Tests
 
 * code 1..1 MS
 
-* subject 0..1 MS
+* subject 1..1 MS
 
 
 * value[x] 0..1 MS
