@@ -5,7 +5,7 @@ Title: "Interview Case Lab Result"
 Description: "Profil zur Erfassung von Laborresultaten (z. B. serologische Tests) im Rahmen des Impfregisters."
 
 * status 1..1 MS
-* status from http://hl7.org/fhir/ValueSet/observation-status (required)
+//* status from http://hl7.org/fhir/ValueSet/observation-status (required)
 
 * category 1..* MS
 
