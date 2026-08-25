@@ -1,12 +1,10 @@
-# Use Case: Impfregister
-
-## Hintergrund
+### Hintergrund
 
 Im Rahmen eines neuen nationalen Impfregisters müssen Patientendaten, Laborresultate 
 (z. B. serologische Tests nach Impfung) sowie die Impfungen selbst strukturiert 
 erfasst werden können. Die Daten sollen mittels FHIR ausgetauscht werden.
 
-## Fachliche Anforderungen
+### Fachliche Anforderungen
 
 ### Patientendaten
 
