@@ -25,6 +25,7 @@ Es muss möglich sein, folgende Angaben zu einer Patientin/einem Patienten zu er
 Im Zusammenhang mit Impfungen sollen auch Laborresultate (z. B. serologische Tests) 
 erfasst werden können:
 
+{:class="table table-bordered"}
 | Angabe | Zwingend? |
 |---|---|
 | Referenz auf Patient | Nein |
@@ -36,6 +37,7 @@ erfasst werden können:
 
 Neu soll auch die eigentliche Impfung erfasst werden können:
 
+{:class="table table-bordered"}
 | Angabe | Zwingend? |
 |---|---|
 | Referenz auf Patient | Ja |
