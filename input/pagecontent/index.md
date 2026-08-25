@@ -3,55 +3,57 @@ Willkommen zur Fallstudie im Rahmen des Bewerbungsprozesses.
 
 Dieser Implementation Guide (IG) enthält Beispiel-Ressourcen, die im Rahmen dieser Aufgabe analysiert werden sollen.
 
-## Aufgaben 1 - Wissensfrage
+### Aufgaben 1 - Wissensfrage
 
-**Frage 1 - Implementation Guide**
-Was ist die Hauptfunktion eines FHIR Implementation Guide (IG)?
+**Frage 1 - Implementation Guide**  
+Was ist die Hauptfunktion eines FHIR Implementation Guide (IG)?  
 
-A.) Er ersetzt den FHIR-Standard vollständig durch eigene Regeln.
-B.) Er definiert, wie FHIR-Ressourcen für einen bestimmten Anwendungsfall/Kontext eingeschränkt und verwendet werden sollen.
-C.) Er ist ausschliesslich ein Software-Tool zur Validierung.
-D.) Er dient nur der Dokumentation von Terminologien.
+A.) Er ersetzt den FHIR-Standard vollständig durch eigene Regeln.  
+B.) Er definiert, wie FHIR-Ressourcen für einen bestimmten Anwendungsfall/Kontext eingeschränkt und verwendet werden sollen.  
+C.) Er ist ausschliesslich ein Software-Tool zur Validierung.  
+D.) Er dient nur der Dokumentation von Terminologien.  
 
-**Frage 2 - Verknüpfung zwischen Ressourcen**
-Eine Observation-Ressource enthält ein Element subject, das auf eine Patient-Ressource verweist. Wie nennt man diese Art der Verknüpfung in FHIR?
+**Frage 2 - Verknüpfung zwischen Ressourcen**  
+Eine Observation-Ressource enthält ein Element subject, das auf eine Patient-Ressource verweist. Wie nennt man diese Art der Verknüpfung in FHIR?  
 
-A.) Extension
-B.) Reference
-C.) Binding
-D.) Profile
+A.) Extension  
+B.) Reference  
+C.) Binding  
+D.) Profile  
 
-**Frage 3 - Profiling/Kardinalität**
-Ein FHIR-Profil leitet sich von einer Basisressource ab. In der Basisressource ist ein Element mit der Kardinalität 0..1 definiert. Welche der folgenden Änderungen im abgeleiteten Profil ist laut FHIR-Standard zulässig?
+**Frage 3 - Profiling/Kardinalität**  
+Ein FHIR-Profil leitet sich von einer Basisressource ab. In der Basisressource ist ein Element mit der Kardinalität 0..1 definiert. Welche der folgenden Änderungen im abgeleiteten Profil ist laut FHIR-Standard zulässig?  
 
-A.) Erhaltung der Kardinalität 0..1 bei gleichzeitiger Änderung des Datentyps in einen inkompatiblen Typ.
-B.) Änderung auf 0..2
-C.) Einschränkung auf 1..1
-D.) Erweiterung auf 1..∗
+A.) Erhaltung der Kardinalität 0..1 bei gleichzeitiger Änderung des Datentyps in einen inkompatiblen Typ.  
+B.) Änderung auf 0..2  
+C.) Einschränkung auf 1..1  
+D.) Erweiterung auf 1..∗  
 
-**Frage 4 - Binding Strength**
-In einer Basisressource ist die Binding Strength eines Codes als required definiert. Was muss ein Profilentwickler bei der weiteren Einschränkung dieses Elements beachten?
+**Frage 4 - Binding Strength**  
+In einer Basisressource ist die Binding Strength eines Codes als required definiert. Was muss ein Profilentwickler bei der weiteren Einschränkung dieses Elements beachten?  
 
-A.) Die Bindungsstärke darf im Profil nicht auf extensible oder preferred herabgestuft werden.
-B.) Es darf kein eigenes Value Set gebunden werden; es muss immer das Standard-Value-Set genutzt werden.
-C.) Das Value Set muss exakt dieselbe Anzahl an Codes enthalten wie das der Basisressource.
-D.) Die Bindungsstärke muss im Profil zwingend auf example gesetzt werden.
+A.) Die Bindungsstärke darf im Profil nicht auf extensible oder preferred herabgestuft werden.  
+B.) Es darf kein eigenes Value Set gebunden werden; es muss immer das Standard-Value-Set genutzt werden.  
+C.) Das Value Set muss exakt dieselbe Anzahl an Codes enthalten wie das der Basisressource.  
+D.) Die Bindungsstärke muss im Profil zwingend auf example gesetzt werden.  
 
-**Frage 5 - MustSupport**
-Was bedeutet die Kennzeichnung mustSupport = true auf einem Element in einem FHIR-Profil?
+**Frage 5 - MustSupport**  
+Was bedeutet die Kennzeichnung mustSupport = true auf einem Element in einem FHIR-Profil?  
 
-A.) Das Element muss zwingend einen Wert enthalten (Kardinalität mindestens 1..1).
-B.) Implementierende Systeme müssen in der Lage sein, das Element zu verarbeiten (zu lesen/speichern/anzuzeigen), auch wenn es optional befüllt ist.
-C.) Das Element darf nur von zertifizierten Systemen verwendet werden.
-D.) Das Element wird automatisch in der Snapshot-Ansicht ausgeblendet.
+A.) Das Element muss zwingend einen Wert enthalten (Kardinalität mindestens 1..1).  
+B.) Implementierende Systeme müssen in der Lage sein, das Element zu verarbeiten (zu lesen/speichern/anzuzeigen), auch wenn es optional befüllt ist.  
+C.) Das Element darf nur von zertifizierten Systemen verwendet werden.  
+D.) Das Element wird automatisch in der Snapshot-Ansicht ausgeblendet.  
 
-**Frage 6 – Slicing**
-Wozu dient "Slicing" in einem FHIR-Profil?
+**Frage 6 – Slicing**  
+Wozu dient "Slicing" in einem FHIR-Profil?  
 
-A.) Um eine Ressource in mehrere kleinere Ressourcen aufzuteilen.
-B.) Um innerhalb eines repetierbaren Elements (z. B. Observation.component) unterschiedliche, klar identifizierbare Ausprägungen einzeln zu definieren und einzuschränken.
-C.) Um ein Element vollständig aus dem Profil zu entfernen.
-D.) Um mehrere FHIR-Server miteinander zu synchronisieren.
+A.) Um eine Ressource in mehrere kleinere Ressourcen aufzuteilen.  
+B.) Um innerhalb eines repetierbaren Elements (z. B. Observation.component) unterschiedliche, klar identifizierbare Ausprägungen einzeln zu definieren und einzuschränken.  
+C.) Um ein Element vollständig aus dem Profil zu entfernen.  
+D.) Um mehrere FHIR-Server miteinander zu synchronisieren.  
+
+***Bitte schreiben Sie die Antwort in eine Word-Datei oder in einer Text-Datei. Den jeweiligen Buchstaben der Antwort reicht.***
 
 Prüfen Sie die im IG enthaltene Patient-Ressource. Identifizieren Sie den strukturellen Fehler (Hinweis: Vergleich mit CH Core) und beschreiben Sie, welche Ressource/welches Profil korrekt verwendet werden müsste und warum.
 
@@ -63,7 +65,7 @@ Formulieren Sie einen Kommentar, wie Sie den gefundenen Fehler im Rahmen eines B
 
 Bitte erfassen Sie Ihre Antworten in einer Text- oder Word-Datei.
 
-Viel Erfolg!
+
 
 <div markdown="1" class="stu-note">
 
