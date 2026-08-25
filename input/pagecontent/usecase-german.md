@@ -17,8 +17,8 @@ Es muss möglich sein, folgende Angaben zu einer Patientin/einem Patienten zu er
 | Name | Ja |
 | Geburtsdatum | Ja |
 | Geschlecht | Ja |
-| Heimatort (Bürgerort) | Ja – relevant für eindeutige Identifikation im CH-Kontext |
-| AHV-Nummer | Nein – sofern vorhanden zu erfassen |
+| Heimatort (placeOfOrigin) | Ja – relevant für eindeutige Identifikation im CH-Kontext |
+| AHV-Nummer | Optional – Wenn vorhanden erfassen |
 
 ### 2. Laborresultate
 
@@ -28,8 +28,9 @@ erfasst werden können:
 | Angabe | Zwingend? |
 |---|---|
 | Referenz auf Patient | Ja |
+| Test-Code  | Ja |
 | Testresultat (z. B. Titer-Wert) | Ja |
-| Zeitpunkt der Probeentnahme | Nein – kann bei nachträglicher Erfassung historischer Daten unbekannt sein |
+| Die Person/Organisation, die die Laboranalyse durchführt| Nein |
 
 ### 3. Impfungen
 

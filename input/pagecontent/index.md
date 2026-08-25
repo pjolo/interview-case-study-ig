@@ -59,7 +59,7 @@ D.) Um mehrere FHIR-Server miteinander zu synchronisieren.
 Lesen Sie den [Use Case](usecase-german.html) aufmerksam durch, insbesondere die 
 Abschnitte **"Patientendaten"** und **"Laborresultate"**.
 
-Analysieren Sie die im Implementierungsleitfaden enthaltenen [Profile](profiles.html). und prüfen Sie, ob diese die im Use Case beschriebenen fachlichen Anforderungen korrekt abbilden. Identifizieren Sie die Fehler (Hinweis: Vergleich mit [CH Core](https://fhir.ch/ig/ch-core/6.0.0/index.html)) und beschreiben Sie, welche Anpassungen Sie machen würden.
+Analysieren Sie die im Implementierungsleitfaden enthaltenen [Profile](profiles.html). und prüfen Sie, ob diese die im Use Case beschriebenen fachlichen Anforderungen korrekt abbilden. Identifizieren Sie die Fehler (Hinweis: Vergleich mit [CH Core Profile](https://fhir.ch/ig/ch-core/6.0.0/profiles.html)) und beschreiben Sie, welche Anpassungen Sie machen würden.
 
 ***Bitte schreiben Sie die Antwort in eine Word-Datei oder in einer Text-Datei.***
 
