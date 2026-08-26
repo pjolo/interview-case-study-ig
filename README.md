@@ -1,4 +1,4 @@
-# Template for HL7 Switzerland FHIR Implementation Guide
+# Template for HL7 Switzerland FHIR Implementation Guide TEST
 This is a template for creating a [HL7 Switzerland](https://www.hl7.ch/) FHIR implementation guide ([CI Build](http://build.fhir.org/ig/ahdis/ch-ig/branches/master/index.html)). Sample resources are integrated as fsh files (`ch-ig/input/fsh`) (also including non-fsh files).
 This *CH IG* implementation guide is dependent on CH Core (and therefore also on CH Term), which describes the Swiss specific context, especially related to the Swiss electronic patient record. If this dependency cannot be used, it can be removed.
 
