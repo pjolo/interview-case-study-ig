@@ -77,9 +77,17 @@ Bitte erfassen Sie Ihre Antworten in einer Text- oder Word-Datei.
 ### Aufgaben 3 - Profilwahl und FSH-Modellierung
 Bestimmen Sie basierend auf den fachlichen Anforderung von [3.3 Impfungen](https://pjolo.github.io/interview-case-study-ig/en/usecase-german.html#impfungen):
 
-1. Welche FHIR-Ressource würden Sie als Basis für die Abbildung einer Impfung wählen? Begründen Sie Ihre Wahl.  
-2. Gibt es im Schweizer Kontext (CH Core / CH EPR) ein passendes Profil, das Sie verwenden würden? Falls ja, welches? Falls nein, würden Sie ein eigenes Profil erstellen – und worauf würden Sie es ableiten?  
+1. Welche FHIR-Ressourcen würden Sie als Basis für die Abbildung der Anforderung wählen? Begründen Sie Ihre Wahl.  
+2. Gibt es im Schweizer Kontext (CH Core)  passende Profile, das Sie verwenden würden? Falls ja, welche? Falls nein, würden Sie ein eigenes Profil erstellen und worauf würden Sie es ableiten?  
 
 ####  FSH-Modellierung (Bonus)
-Erstellen Sie basierend der Aufgabe "Profilwahl und FSH-Modellierung" ein FHIR Shorthand (FSH)-Profil. Es muss nicht vollständig oder syntaktisch perfekt sein; es geht darum, dass Sie zeigen, wie Sie ein solches Profil strukturieren und modellieren würden. Zur vlaidierung
+Erstellen Sie basierend der Aufgabe "Profilwahl und FSH-Modellierung" ein FHIR Shorthand (FSH)-Profil. Es muss nicht vollständig oder syntaktisch perfekt sein; es geht darum, dass Sie zeigen, wie Sie ein solches Profil strukturieren und modellieren würden.  
+
+Als Hilfe für die Modelierung können Sie das [FHIR Cheat Sheet](https://www.devdays.com/wp-content/uploads/2023/09/Firely_FHIR_Cheat_Sheet.pdf) zur hilfe nehmen und können die Resource mithilfe des [FSH-Code Online-Tools](ttps://fshonline.fshschool.org/) erstellen und validieren.
+
+Damit die Validierung für CH Core Resourcen funktionieirt, muss in den Einstellung noch die richtige dependencies angegeneb werden:
+
+
+
+Beachten Sie auch, dass als Parent Wert der Korekte Computable Name verwendet wird.
 
