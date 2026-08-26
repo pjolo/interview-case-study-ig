@@ -56,11 +56,11 @@ pages:
 
 menu:
   Home: index.html
-  Document: document.html
+ # Document: document.html
   Use Case:
    German: usecase-german.html
    French: usecase-french.html
-  Guidance: guidance.html
+ # Guidance: guidance.html
   Profiles: profiles.html
   Extensions: extensions.html
   Terminology: terminology.html

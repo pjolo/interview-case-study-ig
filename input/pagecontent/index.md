@@ -3,7 +3,7 @@ Willkommen zur Fallstudie im Rahmen des Bewerbungsprozesses.
 
 Dieser Implementation Guide (IG) enthält Beispiel-Ressourcen, die im Rahmen dieser Aufgabe analysiert werden sollen.
 
-### Aufgabe 1 - Wissensfrage
+### Aufgaben 1 - Wissensfrage
 
 **Frage 1 - Implementation Guide**  
 Was ist die Hauptfunktion eines FHIR Implementation Guide (IG)?  
@@ -53,41 +53,35 @@ B.) Um innerhalb eines repetierbaren Elements (z. B. Observation.component) unte
 C.) Um ein Element vollständig aus dem Profil zu entfernen.  
 D.) Um mehrere FHIR-Server miteinander zu synchronisieren.  
 
-***Bitte schreiben Sie die Antwort in eine Word-Datei oder in eine Text-Datei. Der jeweilige Buchstabe der Antwort reicht.***
+***Bitte schreiben Sie die Antwort in eine Word-Datei oder in einer Text-Datei. Den jeweiligen Buchstaben der Antwort reicht.***
 
-### Aufgabe 2 - Analyse eines FHIR-Implementierungsleitfadens
+### Aufgaben 2 - Analyse eines FHIR-Implementierungsleitfadens
 Lesen Sie den [Use Case](usecase-german.html) aufmerksam durch, insbesondere die 
 Abschnitte **"Patientendaten"** und **"Laborresultate"**.
 
-Analysieren Sie die im Implementierungsleitfaden enthaltenen [Profile](profiles.html) und prüfen Sie, ob diese die im Use Case beschriebenen fachlichen Anforderungen korrekt abbilden. Identifizieren Sie die Fehler (Hinweis: Vergleich mit [CH Core Profile](https://fhir.ch/ig/ch-core/6.0.0/profiles.html)) und beschreiben Sie, welche Anpassungen Sie machen würden.
+Analysieren Sie die im Implementierungsleitfaden enthaltenen [Profile](profiles.html). und prüfen Sie, ob diese die im Use Case beschriebenen fachlichen Anforderungen korrekt abbilden. Identifizieren Sie die Fehler (Hinweis: Vergleich mit [CH Core Profile](https://fhir.ch/ig/ch-core/6.0.0/profiles.html)) und beschreiben Sie, welche Anpassungen Sie machen würden.
 
 ***Bitte schreiben Sie die Antwort in eine Word-Datei oder in einer Text-Datei.***
 
-`InterviewCase-Patient` und `InterviewCase-LabResult`...
-Prüfen Sie die im IG enthaltene Patient-Ressource. Identifizieren Sie den strukturellen Fehler (Hinweis: Vergleich mit CH Core) und beschreiben Sie, welche Ressource/welches Profil korrekt verwendet werden müsste und warum.
+### Aufgaben 3 - Profilwahl und FSH-Modellierung
+Bestimmen Sie basierend auf den fachlichen Anforderung von [3.3 Impfungen](https://pjolo.github.io/interview-case-study-ig/en/usecase-german.html#impfungen):
 
-**2. Terminologie (SNOMED CT)**
-Ordnen Sie dem vorgegebenen Begriff den korrekten SNOMED-CT-Term zu und wenden Sie dabei die mitgelieferte Übersetzungsrichtlinie an.
+1. Welche FHIR-Ressourcen würden Sie als Basis für die Abbildung der Anforderung wählen? Begründen Sie Ihre Wahl.  
+2. Gibt es im Schweizer Kontext (CH Core)  passende Profile, das Sie verwenden würden? Falls ja, welche? Falls nein, würden Sie ein eigenes Profil erstellen und worauf würden Sie es ableiten?  
 
-**3. Ballot-Kommentar**
-Formulieren Sie einen Kommentar, wie Sie den gefundenen Fehler im Rahmen eines Ballot-Kommentarverfahrens einreichen würden (Referenz/Feld, Problembeschreibung, Verbesserungsvorschlag).
+***Bitte schreiben Sie die Antwort in eine Word-Datei oder in einer Text-Datei.***  
 
-Bitte erfassen Sie Ihre Antworten in einer Text- oder Word-Datei.
+####  FSH-Modellierung (Bonus)
+Erstellen Sie basierend der Aufgabe "Profilwahl und FSH-Modellierung" ein FHIR Shorthand (FSH)-Profil. Es muss nicht vollständig oder syntaktisch perfekt sein; es geht darum, dass Sie zeigen, wie Sie ein solches Profil strukturieren und modellieren würden.  
 
-### Aufgabe 3 - Profilwahl und FSH-Modellierung
-Bestimmen Sie basierend auf den fachlichen Anforderungen von [3.3 Impfungen](https://pjolo.github.io/interview-case-study-ig/en/usecase-german.html#impfungen):
+Als Hilfe für die Modelierung können Sie das [FHIR Cheat Sheet](https://www.devdays.com/wp-content/uploads/2023/09/Firely_FHIR_Cheat_Sheet.pdf) zur hilfe nehmen und können die Resource mithilfe des [FSH-Code Online-Tools](ttps://fshonline.fshschool.org/) erstellen und validieren.
 
-1. Welche FHIR-Ressourcen würden Sie als Basis für die Abbildung der Anforderungen wählen? Begründen Sie Ihre Wahl.  
-2. Gibt es im Schweizer Kontext (CH Core) passende Profile, die Sie verwenden würden? Falls ja, welche? Falls nein, würden Sie ein eigenes Profil erstellen und worauf würden Sie es ableiten?  
+Damit die Validierung für CH Core Resourcen funktionieirt, muss in den Einstellung noch die richtige dependencies (ch.fhir.ig.ch-core#6.0.0) angegeneb werden.   
+Beachten Sie auch, dass beim modelieren der richtige Parent Wert (Korekte Computable Name) verwendet wird.  
 
-#### FSH-Modellierung (Bonus)
-Erstellen Sie basierend auf der Aufgabe "Profilwahl und FSH-Modellierung" ein FHIR Shorthand (FSH)-Profil. Es muss nicht vollständig oder syntaktisch perfekt sein; es geht darum, dass Sie zeigen, wie Sie ein solches Profil strukturieren und modellieren würden.  
+***Bitte schreiben Sie die Antwort in eine Word-Datei oder in einer Text-Datei.***  
 
-Als Hilfe für die Modellierung können Sie das [FHIR Cheat Sheet](https://www.devdays.com/wp-content/uploads/2023/09/Firely_FHIR_Cheat_Sheet.pdf) zur Hilfe nehmen und die Ressource mithilfe des [FSH-Code Online-Tools](https://fshonline.fshschool.org/) erstellen und validieren.
-
-Damit die Validierung für CH Core Ressourcen funktioniert, muss in den Einstellungen noch die richtige Dependency (ch.fhir.ig.ch-core#6.0.0) angegeben werden. Beachten Sie auch, dass beim Modellieren der richtige Parent-Wert (Korrekte Computable Name) verwendet wird.
-
-<img src="config.jpg" alt="Use Case Diagramm" style="width:800px"/>
+<img src="config.jpg" alt="Use Case Diagramm" style="width:800px"/>           
 
 
 
