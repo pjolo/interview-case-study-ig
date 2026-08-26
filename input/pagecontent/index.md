@@ -81,7 +81,7 @@ Bestimmen Sie basierend auf den fachlichen Anforderung von [3.3 Impfungen](https
 2. Gibt es im Schweizer Kontext (CH Core / CH EPR) ein passendes Profil, das Sie verwenden würden? Falls ja, welches? Falls nein, würden Sie ein eigenes Profil erstellen – und worauf würden Sie es ableiten?  
 
 ##  FSH-Modellierung (Bonus)
-Erstellen Sie basierend der Aufgabe "Profilwahl und FSH-Modellierung" ein FHIR Shorthand (FSH)-Profil.  Es muss nicht vollständig oder syntaktisch perfekt sein; es geht darum, dass Sie zeigen, wie Sie ein solches Profil strukturieren und modellieren würden. Zur vlaidierung
+Erstellen Sie basierend der Aufgabe "Profilwahl und FSH-Modellierung" ein FHIR Shorthand (FSH)-Profil. Es muss nicht vollständig oder syntaktisch perfekt sein; es geht darum, dass Sie zeigen, wie Sie ein solches Profil strukturieren und modellieren würden. Zur vlaidierung
 
 <div markdown="1" class="stu-note">
 
