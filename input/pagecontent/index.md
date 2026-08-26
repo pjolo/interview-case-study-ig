@@ -87,7 +87,7 @@ Als Hilfe für die Modelierung können Sie das [FHIR Cheat Sheet](https://www.de
 
 Damit die Validierung für CH Core Resourcen funktionieirt, muss in den Einstellung noch die richtige dependencies angegeneb werden:
 
-<img src="config.jpg" alt="Use Case Diagramm" style="width:800px"/>
+<img src="config.jpg" alt="Use Case Diagramm" style="width:800px"/>  
 
-Beachten Sie auch, dass als Parent Wert der Korekte Computable Name verwendet wird.
+Beachten Sie auch, dass beim modelieren der richtige Parent Wert (Korekte Computable Name) verwendet wird.
 
