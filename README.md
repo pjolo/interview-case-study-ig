@@ -1,6 +1,6 @@
 # Template for HL7 Switzerland FHIR Implementation Guide
-This is a template for creating a [HL7 Switzerland](https://www.hl7.ch/) FHIR implementation guide ([CI Build](http://build.fhir.org/ig/ahdis/ch-ig/branches/master/index.html)). Sample resources are integrated as fsh files (`ch-ig\input\fsh`) (also including non-fsh files).   
-This *CH IG* implementation guide is dependent on CH Core (and therefore also on CH Term), which describe the Swiss specific context, especially related to the Swiss electronic patient record. If this dependency cannot be used, it can be removed.
+This is a template for creating a [HL7 Switzerland](https://www.hl7.ch/) FHIR implementation guide ([CI Build](http://build.fhir.org/ig/ahdis/ch-ig/branches/master/index.html)). Sample resources are integrated as fsh files (`ch-ig/input/fsh`) (also including non-fsh files).
+This *CH IG* implementation guide is dependent on CH Core (and therefore also on CH Term), which describes the Swiss specific context, especially related to the Swiss electronic patient record. If this dependency cannot be used, it can be removed.
 
 **FSH (FHIR Shorthand)**    
 To set up a FHIR Shorthand (FSH) implementation guide use this template or see the instructions [here](https://fshschool.org/docs/sushi/project/). Don't forget to [install SUSHI](https://fshschool.org/docs/sushi/installation/). ([CI Build](http://build.fhir.org/ig/ahdis/ch-ig/branches/master/index.html))  
@@ -74,7 +74,7 @@ You need to give access to your repository for the specific github [app](https:/
 
 ## Java
 * Install Java as described [here](https://www.oracle.com/ch-de/java/technologies/downloads/)
-   * Java 23 (Java 8 not longer supported, see [here](https://chat.fhir.org/#narrow/stream/179294-committers.2Fannounce/topic/Java.208.20no.20longer.20supported))
+   * Java 23 (Java 8 no longer supported, see [here](https://chat.fhir.org/#narrow/stream/179294-committers.2Fannounce/topic/Java.208.20no.20longer.20supported))
 
 ## Jekyll
 * Installation: https://jekyllrb.com/ (see [Jekyll on Windows](https://jekyllrb.com/docs/installation/windows/) for windows users)
@@ -98,7 +98,7 @@ You need to give access to your repository for the specific github [app](https:/
 * Navigate to the local *GitHub* folder in the terminal (`cd .\Documents\`, `cd .\GitHub\`)
 * Then clone the repository via the terminal: `git clone https://github.com/ahdis/ch-ig.git`
 * Open the folder of the repository in VSC (File > Open Folder...)
-* Navigate to this repository in the terminal (`cd .\ch-ig\ `)
+* Navigate to this repository in the terminal (`cd ./ch-ig/`)
 
 ## Install the FHIR IG publisher
 * In VSC press *F1* or *Ctrl+Shift+P*
@@ -115,6 +115,6 @@ You need to give access to your repository for the specific github [app](https:/
 # Further links
 * [IG Publisher Documentation](https://confluence.hl7.org/display/FHIR/IG+Publisher+Documentation)
 * [Using the FHIR Validator](https://confluence.hl7.org/display/FHIR/Using+the+FHIR+Validator)
-* FHIR Chat [Zulip](chat.fhir.org)
+* FHIR Chat [Zulip](https://chat.fhir.org)
   * Create a free account
   * Use different streams for help/information: #implementers, #IG creation, #committers/notification, #shorthand, #terminology, #switzerland, and more...

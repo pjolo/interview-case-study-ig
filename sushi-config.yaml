@@ -42,7 +42,7 @@ pages:
   usecase-german.md:
     title: Anwendungsfälle
   usecase-french.md:
-    title: Cas d'application 
+    title: Cas d'application
  # guidance.md:
  #   title: Guidance
   profiles.md:
@@ -52,7 +52,7 @@ pages:
   terminology.md:
     title: Terminology
   changelog.md:
-    title: Changelog  
+    title: Changelog
 
 menu:
   Home: index.html
@@ -80,7 +80,7 @@ resources:
 parameters:
   excludettl: true
   allow-extensible-warnings: true
-  display-warnings: true 
+  display-warnings: true
   path-expansion-params: '../../expansion-params.json'  # for using SNOMED CT Swiss Extension
   pin-canonicals: pin-multiples
   path-resource:

@@ -20,7 +20,7 @@ There are defined [styles](https://build.fhir.org/ig/FHIR/ig-guidance/best-pract
 
 <div markdown="5" class="dragon">
     <p>
-    This box is styled 'dragon' serves to warn about issues or pitfalls 
+    This box is styled 'dragon' and serves to warn about issues or pitfalls
     </p>
 </div>
 
