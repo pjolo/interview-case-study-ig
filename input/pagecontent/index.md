@@ -85,9 +85,9 @@ Erstellen Sie basierend der Aufgabe "Profilwahl und FSH-Modellierung" ein FHIR S
 
 Als Hilfe für die Modelierung können Sie das [FHIR Cheat Sheet](https://www.devdays.com/wp-content/uploads/2023/09/Firely_FHIR_Cheat_Sheet.pdf) zur hilfe nehmen und können die Resource mithilfe des [FSH-Code Online-Tools](ttps://fshonline.fshschool.org/) erstellen und validieren.
 
-Damit die Validierung für CH Core Resourcen funktionieirt, muss in den Einstellung noch die richtige dependencies angegeneb werden:
+Damit die Validierung für CH Core Resourcen funktionieirt, muss in den Einstellung noch die richtige dependencies (ch.fhir.ig.ch-core#6.0.0) angegeneb werden. Beachten Sie auch, dass beim modelieren der richtige Parent Wert (Korekte Computable Name) verwendet wird.                      
 
-<img src="config.jpg" alt="Use Case Diagramm" style="width:800px"/>  
+<img src="config.jpg" alt="Use Case Diagramm" style="width:800px"/>           
 
-Beachten Sie auch, dass beim modelieren der richtige Parent Wert (Korekte Computable Name) verwendet wird.
+
 

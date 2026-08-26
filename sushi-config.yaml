@@ -37,14 +37,14 @@ dependencies:
 pages:
   index.md:
     title: Home
-  document.md:
-    title: Document
+ # document.md:
+ #   title: Document
   usecase-german.md:
     title: Anwendungsfälle
   usecase-french.md:
     title: Cas d'application 
-  guidance.md:
-    title: Guidance
+ # guidance.md:
+ #   title: Guidance
   profiles.md:
     title: Profiles
   extensions.md:
