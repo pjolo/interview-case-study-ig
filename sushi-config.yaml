@@ -37,6 +37,8 @@ dependencies:
 pages:
   index.md:
     title: Home
+  indexFR.md:
+    title: Home FR
  # document.md:
  #   title: Document
   usecase-german.md:
@@ -55,7 +57,9 @@ pages:
     title: Changelog
 
 menu:
-  Home: index.html
+  Home: 
+    Deutsch: index.html
+    Français: indexFR.html
  # Document: document.html
   Use Case:
    German: usecase-german.html
