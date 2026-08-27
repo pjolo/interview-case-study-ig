@@ -1,4 +1,3 @@
-## Introduction
 Willkommen zur Fallstudie im Rahmen des Bewerbungsprozesses.
 
 Dieser Implementation Guide (IG) enthält Beispiel-Ressourcen, die im Rahmen dieser Aufgabe analysiert werden sollen.

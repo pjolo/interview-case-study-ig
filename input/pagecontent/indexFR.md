@@ -1,9 +1,8 @@
-## Introduction
 Bienvenue dans cette étude de cas dans le cadre du processus de candidature.  
 
 ### Exercices 1 - Question de compréhension
 
-**Question 1 - Guide de mise en œuvre**
+**Question 1 - Guide de mise en œuvre**  
 Quelle est la fonction principale d'un guide de mise en œuvre FHIR ?
 
 A.) Il remplace intégralement la norme FHIR par ses propres règles.  
@@ -35,7 +34,7 @@ B.) Il n'est pas autorisé de définir son propre « Value Set » ; il faut touj
 C.) Le « Value Set » doit contenir exactement le même nombre de codes que celui de la ressource de base.  
 D.) Dans le profil, la force de liaison doit absolument être définie sur « example ».  
 
-**Question 5 - MustSupport**
+**Question 5 - MustSupport**  
 Que signifie l'attribut « 'mustSupport = true' » sur un élément d'un profil FHIR ? 
 
 A.) Cet élément doit obligatoirement contenir une valeur (cardinalité au moins 1..1).   
