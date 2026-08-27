@@ -1,5 +1,5 @@
 Profile: CHIgPatient
 Parent: Patient
 Id: CHIgPatient
-Title: "CH IG Patient"
+Title: "Interview Case Patient"
 Description: "Example profile defining a Patient resource."
