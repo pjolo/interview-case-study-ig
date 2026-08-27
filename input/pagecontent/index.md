@@ -66,6 +66,11 @@ Analysieren Sie die im Implementierungsleitfaden enthaltenen [Profile](profiles.
 1.) Identifizieren Sie alle Abweichungen zwischen den fachlichen Anforderungen und den vorliegenden Profilen (Hinweis: Vergleich mit [CH Core Profile](https://fhir.ch/ig/ch-core/6.0.0/profiles.html)).  
 2.) Beschreiben Sie für jede gefundene Abweichung, welche konkrete Anpassung Sie vornehmen würden.
 
+💡 **Tipp:** Schau dir im IG jeweils die **Snapshot-Table** des 
+Profils an (nicht nur die Differential-Ansicht), dort sehen Sie 
+alle Elemente der Ressource inklusive der von der Basisressource 
+geerbten Elemente, mit den effektiv geltenden Kardinalitäten und Datentypen.
+
 ***Bitte schreiben Sie die Antwort in eine Word-Datei oder in einer Text-Datei.***
 
 ### Aufgaben 3 - Profilwahl und FSH-Modellierung

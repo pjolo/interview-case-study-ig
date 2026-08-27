@@ -64,6 +64,11 @@ Analysez les [profils](profiles.html) inclus dans le guide de mise en œuvre et 
 1.) Identifiez tous les écarts entre les exigences professionnelles et les profils disponibles (remarque : comparez-les avec le [CH Core Profile](https://fhir.ch/ig/ch-core/6.0.0/profiles.html)). 
 2.) Pour chaque écart trouvé, décrivez les ajustements concrets que vous effectueriez.
 
+💡 **Conseil :** consultez dans le guide de mise en œuvre le **Snapshot-Table** du
+profil (et pas seulement la vue différentielle) ; vous y verrez
+tous les éléments de la ressource, y compris ceux hérités de la ressource de base
+, avec les cardinalités et les types de données effectivement applicables.
+
 ***Veuillez noter votre réponse dans un fichier Word ou dans un fichier texte.***
 
 ### Exercices 3 - Choix du profil et modélisation FSH
