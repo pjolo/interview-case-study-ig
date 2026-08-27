@@ -53,7 +53,7 @@ B.) Um innerhalb eines repetierbaren Elements (z. B. Observation.component) unte
 C.) Um ein Element vollständig aus dem Profil zu entfernen.  
 D.) Um mehrere FHIR-Server miteinander zu synchronisieren.  
 
-***Bitte schreiben Sie die Antwort in eine Word-Datei oder in einer Text-Datei. Den jeweiligen Buchstaben der Antwort reicht.***
+***Bitte schreiben Sie die Antwort in eine Word-Datei oder in einer Text-Datei. Der jeweilige Buchstabe der Antwort reicht.***
 
 ### Aufgaben 2 - Analyse eines FHIR-Implementierungsleitfadens
 Lesen Sie den [Use Case](usecase-german.html) aufmerksam durch, insbesondere die 
@@ -64,20 +64,20 @@ Analysieren Sie die im Implementierungsleitfaden enthaltenen [Profile](profiles.
 ***Bitte schreiben Sie die Antwort in eine Word-Datei oder in einer Text-Datei.***
 
 ### Aufgaben 3 - Profilwahl und FSH-Modellierung
-Bestimmen Sie basierend auf den fachlichen Anforderung von [3.3 Impfungen](https://pjolo.github.io/interview-case-study-ig/en/usecase-german.html#impfungen):
+Bestimmen Sie basierend auf den fachlichen Anforderungen von [3.3 Impfungen](https://pjolo.github.io/interview-case-study-ig/en/usecase-german.html#impfungen):
 
 1. Welche FHIR-Ressourcen würden Sie als Basis für die Abbildung der Anforderung wählen? Begründen Sie Ihre Wahl.  
-2. Gibt es im Schweizer Kontext (CH Core)  passende Profile, das Sie verwenden würden? Falls ja, welche? Falls nein, würden Sie ein eigenes Profil erstellen und worauf würden Sie es ableiten?  
+2. Gibt es im Schweizer Kontext (CH Core) passende Profile, das Sie verwenden würden? Falls ja, welche? Falls nein, würden Sie ein eigenes Profil erstellen und worauf würden Sie es ableiten?  
 
 ***Bitte schreiben Sie die Antwort in eine Word-Datei oder in einer Text-Datei.***  
 
 ####  FSH-Modellierung (Bonus)
-Erstellen Sie basierend der Aufgabe "Profilwahl und FSH-Modellierung" ein FHIR Shorthand (FSH)-Profil. Es muss nicht vollständig oder syntaktisch perfekt sein; es geht darum, dass Sie zeigen, wie Sie ein solches Profil strukturieren und modellieren würden.  
+Erstellen Sie basierend auf der Aufgabe "Profilwahl und FSH-Modellierung" ein FHIR Shorthand (FSH)-Profil. Es muss nicht vollständig oder syntaktisch perfekt sein; es geht darum, dass Sie zeigen, wie Sie ein solches Profil strukturieren und modellieren würden.  
 
-Als Hilfe für die Modelierung können Sie das [FHIR Cheat Sheet](https://www.devdays.com/wp-content/uploads/2023/09/Firely_FHIR_Cheat_Sheet.pdf) zur hilfe nehmen und können die Resource mithilfe des [FSH-Code Online-Tools](ttps://fshonline.fshschool.org/) erstellen und validieren.
+Als Hilfe für die Modellierung können Sie das [FHIR Cheat Sheet](https://devdays.com/wp-content/uploads/2023/09/Firely_FHIR_Cheat_Sheet.pdf) zu Hilfe nehmen und die Resource mithilfe des [FSH-Code Online-Tools](https://fshonline.fshschool.org/) erstellen und validieren.
 
-Damit die Validierung für CH Core Resourcen funktionieirt, muss in den Einstellung noch die richtige dependencies (ch.fhir.ig.ch-core#6.0.0) angegeneb werden.   
-Beachten Sie auch, dass beim modelieren der richtige Parent Wert (Korekte Computable Name) verwendet wird.  
+Damit die Validierung für CH Core Resourcen funktionieirt, muss in den Einstellungen noch die richtigen Dependencies (ch.fhir.ig.ch-core#6.0.0) angegeben werden.   
+Beachten Sie auch, dass beim Modellieren der richtige Parent Wert (Korrekte Computable Name) verwendet wird.  
 
 ***Bitte schreiben Sie die Antwort in eine Word-Datei oder in einer Text-Datei.*** 
 Test 
