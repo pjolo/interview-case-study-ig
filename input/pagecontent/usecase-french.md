@@ -4,7 +4,7 @@ Dans le cadre d'un nouveau registre national de vaccination, il doit être possi
 
 ### Conditions professionnelles
 
-### Données des patients  
+#### Données des patients  
 
 Il doit être possible de saisir les informations suivantes concernant une patiente/un patient :  
 
@@ -17,7 +17,7 @@ Il doit être possible de saisir les informations suivantes concernant une patie
 | Lieu d'origine (placeOfOrigin) (placeOfOrigin) | Oui – pertinent pour une identification univoque dans le contexte suisse |
 | Numéro AVS| Optional –  à saisir s'il est disponible |  
 
-### Résultats de laboratoire  
+#### Résultats de laboratoire  
 
 Dans le contexte des vaccinations, il doit également être possible de saisir des résultats de laboratoire (p. ex. tests sérologiques) :  
 
@@ -29,7 +29,7 @@ Dans le contexte des vaccinations, il doit également être possible de saisir d
 | Résultat du test (p. ex. valeur du titre) | Oui |
 | La personne/l'organisation qui effectue l'analyse de laboratoire| Non |
 
-### Vaccinations
+#### Vaccinations
 
 Dans le cadre du registre des vaccinations, l’OFSP souhaite à l’avenir pouvoir également enregistrer
 les vaccins qui ont été administrés, y compris les

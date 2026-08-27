@@ -71,7 +71,7 @@ tous les éléments de la ressource, y compris ceux hérités de la ressource de
 ***Veuillez noter votre réponse dans un fichier Word ou dans un fichier texte.***
 
 ### Exercices 3 - Choix du profil et modélisation FSH
-Veuillez déterminer, sur la base des exigences professionnelles de la section [3.3 Vaccinations](https://pjolo.github.io/interview-case-study-ig/en/usecase-french.html#vaccinations) :
+Veuillez déterminer, sur la base des exigences professionnelles de la section [4.2.3 Vaccinations](https://pjolo.github.io/interview-case-study-ig/en/usecase-french.html#vaccinations) :
 
 1. Quelle(s) ressource(s) FHIR choisiriez-vous comme base pour la mise en œuvre de cette demande ? Justifiez votre choix.    
 2. Existe-t-il, dans le contexte suisse (CH Core), des profils adaptés que vous utiliseriez ? Si oui, lesquels ? Si non, créeriez-vous votre propre profil et sur quoi le baseriez-vous ? 

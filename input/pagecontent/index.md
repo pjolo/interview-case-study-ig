@@ -73,7 +73,7 @@ geerbten Elemente, mit den effektiv geltenden Kardinalitäten und Datentypen.
 ***Bitte schreiben Sie die Antwort in eine Word-Datei oder in einer Text-Datei.***
 
 ### Aufgaben 3 - Profilwahl und FSH-Modellierung
-Bestimmen Sie basierend auf den fachlichen Anforderungen von [3.3 Impfungen](https://pjolo.github.io/interview-case-study-ig/en/usecase-german.html#impfungen):
+Bestimmen Sie basierend auf den fachlichen Anforderungen von [3.2.3 Impfungen](https://pjolo.github.io/interview-case-study-ig/en/usecase-german.html#impfungen):
 
 1. Welche FHIR-Ressource(n) würden Sie als Basis für die Abbildung der Anforderung wählen? Begründen Sie Ihre Wahl.  
 2. Gibt es im Schweizer Kontext (CH Core) passende Profile, die Sie verwenden würden? Falls ja, welche? Falls nein, würden Sie ein eigenes Profil erstellen und worauf würden Sie es ableiten?  
