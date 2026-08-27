@@ -38,7 +38,8 @@ Das BAG möchte im Rahmen des Impfregisters neu auch erfassen können,
 welche Impfungen verabreicht wurden, inklusive sicherheitsrelevanter 
 Informationen. Ziel ist es, im Nachhinein auswerten zu können, ob 
 bestimmte Impfstoffe bei Personen mit bekannten Unverträglichkeiten 
-oder relevanten Vorerkrankungen trotzdem verabreicht wurden (z. B. für 
+oder relevanten Vorerkrankungen trotzdem verabreicht wurden und ob 
+im Rahmen der ärztlich  Nachbeobachtung nach der Impfung eine unerwartete Reaktion aufgetreten ist (z. B. für 
 Qualitätssicherung oder Pharmacovigilance).
 
 Impfzentren und Arztpraxen übermitteln pro verabreichter Impfung 
@@ -54,5 +55,6 @@ folgende Angaben an das zentrale Register:
 | Verabreichende Person/Institution (Performer) | Ja |
 | Bekannte Unverträglichkeit der Person gegenüber Impfstoffen oder deren Inhaltsstoffen (falls in der Krankengeschichte dokumentiert) | Ja |
 | Bekannte Vorerkrankung, die eine besondere Vorsicht bei der Impfung erfordert (z. B. Immunschwäche, akute fieberhafte Erkrankung zum Zeitpunkt der Impfung) | Ja |
+| Beobachtung während der Nachbeobachtungszeit direkt nach der Impfung (z. B. Kreislaufkontrolle, Auffälligkeiten, Vitalwerte) | Ja |
 | Chargennummer des Impfstoffs | Nein |
 | Notiz, falls die Impfung trotz bekannter Unverträglichkeit oder Vorerkrankung unter ärztlicher Aufsicht verabreicht wurde | Nein |

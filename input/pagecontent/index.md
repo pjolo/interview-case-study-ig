@@ -38,7 +38,7 @@ C.) Das Value Set muss exakt dieselbe Anzahl an Codes enthalten wie das der Basi
 D.) Die Bindungsstärke muss im Profil zwingend auf example gesetzt werden.  
 
 **Frage 5 - MustSupport**  
-Was bedeutet die Kennzeichnung mustSupport = true auf einem Element in einem FHIR-Profil?  
+Was bedeutet die Kennzeichnung 'mustSupport = true' auf einem Element in einem FHIR-Profil?  
 
 A.) Das Element muss zwingend einen Wert enthalten (Kardinalität mindestens 1..1).  
 B.) Implementierende Systeme müssen in der Lage sein, das Element zu verarbeiten (zu lesen/speichern/anzuzeigen), auch wenn es optional befüllt ist.  
@@ -59,15 +59,20 @@ D.) Um mehrere FHIR-Server miteinander zu synchronisieren.
 Lesen Sie den [Use Case](usecase-german.html) aufmerksam durch, insbesondere die 
 Abschnitte **"Patientendaten"** und **"Laborresultate"**.
 
-Analysieren Sie die im Implementierungsleitfaden enthaltenen [Profile](profiles.html). und prüfen Sie, ob diese die im Use Case beschriebenen fachlichen Anforderungen korrekt abbilden. Identifizieren Sie die Fehler (Hinweis: Vergleich mit [CH Core Profile](https://fhir.ch/ig/ch-core/6.0.0/profiles.html)) und beschreiben Sie, welche Anpassungen Sie machen würden.
+Analysieren Sie die im Implementierungsleitfaden enthaltenen [Profile](profiles.html) und prüfen Sie, ob diese die im Use Case beschriebenen fachlichen Anforderungen korrekt abbilden.  
+
+**Vorgehen:**  
+
+1.) Identifizieren Sie alle Abweichungen zwischen den fachlichen Anforderungen und den vorliegenden Profilen (Hinweis: Vergleich mit [CH Core Profile](https://fhir.ch/ig/ch-core/6.0.0/profiles.html)).  
+2.) Beschreiben Sie für jede gefundene Abweichung, welche konkrete Anpassung Sie vornehmen würden.
 
 ***Bitte schreiben Sie die Antwort in eine Word-Datei oder in einer Text-Datei.***
 
 ### Aufgaben 3 - Profilwahl und FSH-Modellierung
 Bestimmen Sie basierend auf den fachlichen Anforderungen von [3.3 Impfungen](https://pjolo.github.io/interview-case-study-ig/en/usecase-german.html#impfungen):
 
-1. Welche FHIR-Ressourcen würden Sie als Basis für die Abbildung der Anforderung wählen? Begründen Sie Ihre Wahl.  
-2. Gibt es im Schweizer Kontext (CH Core) passende Profile, das Sie verwenden würden? Falls ja, welche? Falls nein, würden Sie ein eigenes Profil erstellen und worauf würden Sie es ableiten?  
+1. Welche FHIR-Ressource(n) würden Sie als Basis für die Abbildung der Anforderung wählen? Begründen Sie Ihre Wahl.  
+2. Gibt es im Schweizer Kontext (CH Core) passende Profile, die Sie verwenden würden? Falls ja, welche? Falls nein, würden Sie ein eigenes Profil erstellen und worauf würden Sie es ableiten?  
 
 ***Bitte schreiben Sie die Antwort in eine Word-Datei oder in einer Text-Datei.***  
 
@@ -76,13 +81,12 @@ Erstellen Sie basierend auf der Aufgabe "Profilwahl und FSH-Modellierung" ein FH
 
 Als Hilfe für die Modellierung können Sie das [FHIR Cheat Sheet](https://devdays.com/wp-content/uploads/2023/09/Firely_FHIR_Cheat_Sheet.pdf) zu Hilfe nehmen und die Resource mithilfe des [FSH-Code Online-Tools](https://fshonline.fshschool.org/) erstellen und validieren.
 
-Damit die Validierung für CH Core Resourcen funktionieirt, muss in den Einstellungen noch die richtigen Dependencies (ch.fhir.ig.ch-core#6.0.0) angegeben werden.   
-Beachten Sie auch, dass beim Modellieren der richtige Parent Wert (Korrekte Computable Name) verwendet wird.  
+**Validierung:**   
+Damit die Validierung für CH-Core-Ressourcen funktioniert, müssen in den Einstellungen des Online-Tools die Dependencies 'ch.fhir.ig.ch-core#6.0.0' angegeben werden. Achten Sie zudem darauf, dass Sie als 'Parent'-Wert den korrekten Computable Name des jeweiligen Profils verwenden. 
 
 ***Bitte schreiben Sie die Antwort in eine Word-Datei oder in einer Text-Datei.*** 
-Test 
 
-<img src="config.jpg" alt="Use Case Diagramm" style="width:800px"/>           
+<img src="config.jpg" alt="Use Case Diagramm" style="width:900px"/>           
 
 
 
