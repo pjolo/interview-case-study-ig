@@ -5,8 +5,8 @@ Bienvenue dans cette étude de cas dans le cadre du processus de candidature.
 **Question 1 - Guide de mise en œuvre**  
 Quelle est la fonction principale d'un guide de mise en œuvre FHIR ?
 
-A.) Il remplace intégralement la norme FHIR par ses propres règles.  
-B.) Il définit la manière dont les ressources FHIR doivent être utilisées et restreintes pour un cas d'utilisation ou un contexte donné.  
+A.) Il définit la manière dont les ressources FHIR doivent être utilisées et restreintes pour un cas d'utilisation ou un contexte donné.   
+B.) Il remplace intégralement la norme FHIR par ses propres règles.   
 C.) Il s'agit exclusivement d'un outil logiciel de validation.  
 D.) Il sert uniquement à documenter la terminologie.  
 
@@ -23,24 +23,24 @@ Un profil FHIR est dérivé d’une ressource de base. Dans la ressource de base
 
 A.) Conservation de la cardinalité 0..1 tout en modifiant le type de données pour le remplacer par un type incompatible.   
 B.) Modification à 0..2  
-C.) ERestriction à 1..1    
-D.) Extension à 1..∗   
+C.) Extension à 1..∗    
+D.) Restriction à 1..1   
 
 **Question 4 - Binding Strength**  
 Dans une ressource de base, la « Binding Strength » d'un code est définie comme obligatoire. Que doit prendre en compte un développeur de profil lorsqu'il souhaite restreindre cet élément ? 
 
-A.) Le niveau de liaison ne doit pas être rétrogradé à « extensible » ou « preferred » dans le profil.    
+A.) Le « Value Set » doit contenir exactement le même nombre de codes que celui de la ressource de base.     
 B.) Il n'est pas autorisé de définir son propre « Value Set » ; il faut toujours utiliser « Value Set » par défaut.
-C.) Le « Value Set » doit contenir exactement le même nombre de codes que celui de la ressource de base.  
+C.) Le niveau de liaison ne doit pas être rétrogradé à « extensible » ou « preferred » dans le profil. 
 D.) Dans le profil, la force de liaison doit absolument être définie sur « example ».  
 
 **Question 5 - MustSupport**  
 Que signifie l'attribut « 'mustSupport = true' » sur un élément d'un profil FHIR ? 
 
 A.) Cet élément doit obligatoirement contenir une valeur (cardinalité au moins 1..1).   
-B.) Les systèmes de mise en œuvre doivent être capables de traiter cet élément (le lire, l'enregistrer, l'afficher), même s'il n'est pas obligatoirement renseigné.   
+B.) L'élément est automatiquement masqué dans la vue « Snapshot ».    
 C.) Cet élément ne doit être utilisé que par des systèmes certifiés.   
-D.) L'élément est automatiquement masqué dans la vue « Snapshot ».    
+D.) Les systèmes de mise en œuvre doivent être capables de traiter cet élément (le lire, l'enregistrer, l'afficher), même s'il n'est pas obligatoirement renseigné.   
 
 **Question 6 – Slicing**  
 À quoi sert le « slicing » dans un profil FHIR ?   
@@ -63,7 +63,7 @@ Analysez les [profils](profiles.html) inclus dans le guide de mise en œuvre et 
 1.) Identifiez tous les écarts entre les exigences professionnelles et les profils disponibles (remarque : comparez-les avec le [CH Core Profile](https://fhir.ch/ig/ch-core/6.0.0/profiles.html)). 
 2.) Pour chaque écart trouvé, décrivez les ajustements concrets que vous effectueriez.
 
-💡 **Conseil :** consultez dans le guide de mise en œuvre le **Snapshot-Table** du
+💡 **Conseil :** Consultez dans le guide de mise en œuvre le **Snapshot-Table** du
 profil (et pas seulement la vue différentielle) ; vous y verrez
 tous les éléments de la ressource, y compris ceux hérités de la ressource de base
 , avec les cardinalités et les types de données effectivement applicables.

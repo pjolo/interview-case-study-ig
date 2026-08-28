@@ -4,9 +4,9 @@ Willkommen zur Fallstudie im Rahmen des Bewerbungsprozesses.
 
 **Frage 1 - Implementation Guide**  
 Was ist die Hauptfunktion eines FHIR Implementation Guide (IG)?  
-
-A.) Er ersetzt den FHIR-Standard vollständig durch eigene Regeln.  
-B.) Er definiert, wie FHIR-Ressourcen für einen bestimmten Anwendungsfall/Kontext eingeschränkt und verwendet werden sollen.  
+ 
+A.) Er definiert, wie FHIR-Ressourcen für einen bestimmten Anwendungsfall/Kontext eingeschränkt und verwendet werden sollen.  
+B.) Er ersetzt den FHIR-Standard vollständig durch eigene Regeln. 
 C.) Er ist ausschliesslich ein Software-Tool zur Validierung.  
 D.) Er dient nur der Dokumentation von Terminologien.  
 
@@ -23,24 +23,24 @@ Ein FHIR-Profil leitet sich von einer Basisressource ab. In der Basisressource i
 
 A.) Erhaltung der Kardinalität 0..1 bei gleichzeitiger Änderung des Datentyps in einen inkompatiblen Typ.  
 B.) Änderung auf 0..2  
-C.) Einschränkung auf 1..1  
-D.) Erweiterung auf 1..∗  
+C.) Erweiterung auf 1..∗  
+D.) Einschränkung auf 1..1  
 
 **Frage 4 - Binding Strength**  
 In einer Basisressource ist die Binding Strength eines Codes als required definiert. Was muss ein Profilentwickler bei der weiteren Einschränkung dieses Elements beachten?  
 
-A.) Die Bindungsstärke darf im Profil nicht auf extensible oder preferred herabgestuft werden.  
+A.) Das Value Set muss exakt dieselbe Anzahl an Codes enthalten wie das der Basisressource.    
 B.) Es darf kein eigenes Value Set gebunden werden; es muss immer das Standard-Value-Set genutzt werden.  
-C.) Das Value Set muss exakt dieselbe Anzahl an Codes enthalten wie das der Basisressource.  
+C.) Die Bindungsstärke darf im Profil nicht auf extensible oder preferred herabgestuft werden.    
 D.) Die Bindungsstärke muss im Profil zwingend auf example gesetzt werden.  
 
 **Frage 5 - MustSupport**  
 Was bedeutet die Kennzeichnung 'mustSupport = true' auf einem Element in einem FHIR-Profil?  
 
 A.) Das Element muss zwingend einen Wert enthalten (Kardinalität mindestens 1..1).  
-B.) Implementierende Systeme müssen in der Lage sein, das Element zu verarbeiten (zu lesen/speichern/anzuzeigen), auch wenn es optional befüllt ist.  
+B.) Das Element wird automatisch in der Snapshot-Ansicht ausgeblendet.  
 C.) Das Element darf nur von zertifizierten Systemen verwendet werden.  
-D.) Das Element wird automatisch in der Snapshot-Ansicht ausgeblendet.  
+D.) Implementierende Systeme müssen in der Lage sein, das Element zu verarbeiten (zu lesen/speichern/anzuzeigen), auch wenn es optional befüllt ist.  
 
 **Frage 6 – Slicing**  
 Wozu dient "Slicing" in einem FHIR-Profil?  
@@ -63,7 +63,7 @@ Analysieren Sie die im Implementierungsleitfaden enthaltenen [Profile](profiles.
 1.) Identifizieren Sie alle Abweichungen zwischen den fachlichen Anforderungen und den vorliegenden Profilen (Hinweis: Vergleich mit [CH Core Profile](https://fhir.ch/ig/ch-core/6.0.0/profiles.html)).  
 2.) Beschreiben Sie für jede gefundene Abweichung, welche konkrete Anpassung Sie vornehmen würden.
 
-💡 **Tipp:** Schau dir im IG jeweils die **Snapshot-Table** des 
+💡 **Tipp:** Schau Sie im IG jeweils die **Snapshot-Table** des 
 Profils an (nicht nur die Differential-Ansicht), dort sehen Sie 
 alle Elemente der Ressource inklusive der von der Basisressource 
 geerbten Elemente, mit den effektiv geltenden Kardinalitäten und Datentypen.
