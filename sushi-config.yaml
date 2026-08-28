@@ -62,8 +62,8 @@ menu:
     Français: indexFR.html
  # Document: document.html
   Use Case:
-   German: usecase-german.html
-   French: usecase-french.html
+   Deutsch: usecase-german.html
+   Français: usecase-french.html
  # Guidance: guidance.html
   Profiles: profiles.html
   Extensions: extensions.html
