@@ -14,8 +14,8 @@ Il doit être possible de saisir les informations suivantes concernant une patie
 | Nom | Oui |
 | Date de naissance | Oui |
 | Sexe | Oui |
-| Lieu d'origine (placeOfOrigin) (placeOfOrigin) | Oui – pertinent pour une identification univoque dans le contexte suisse |
-| Numéro AVS| Optional –  à saisir s'il est disponible |  
+| Lieu d'origine (placeOfOrigin) | Oui – pertinent pour une identification univoque dans le contexte suisse |
+| Numéro AVS | Optionnel – à saisir s'il est disponible |
 
 #### Résultats de laboratoire  
 

@@ -30,7 +30,7 @@ erfasst werden können:
 | Referenz auf Patient | Nein |
 | Test-Code  | Ja |
 | Testresultat (z. B. Titer-Wert) | Ja |
-| Die Person/Organisation, die die Laboranalyse durchführt| Nein |
+| Die Person/Organisation, die die Laboranalyse durchführt | Nein |
 
 #### Impfungen
 
@@ -39,7 +39,7 @@ welche Impfungen verabreicht wurden, inklusive sicherheitsrelevanter
 Informationen. Ziel ist es, im Nachhinein auswerten zu können, ob 
 bestimmte Impfstoffe bei Personen mit bekannten Unverträglichkeiten 
 oder relevanten Vorerkrankungen trotzdem verabreicht wurden und ob 
-im Rahmen der ärztlich  Nachbeobachtung nach der Impfung eine unerwartete Reaktion aufgetreten ist (z. B. für 
+im Rahmen der ärztlichen Nachbeobachtung nach der Impfung eine unerwartete Reaktion aufgetreten ist (z. B. für
 Qualitätssicherung oder Pharmacovigilance).
 
 Impfzentren und Arztpraxen übermitteln pro verabreichter Impfung 

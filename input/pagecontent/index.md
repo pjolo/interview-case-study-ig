@@ -1,6 +1,6 @@
 Willkommen zur Fallstudie im Rahmen des Bewerbungsprozesses.
 
-### Aufgaben 1 - Wissensfrage
+### Aufgabe 1 - Wissensfragen
 
 **Frage 1 - Implementation Guide**  
 Was ist die Hauptfunktion eines FHIR Implementation Guide (IG)?  
@@ -50,9 +50,9 @@ B.) Um innerhalb eines repetierbaren Elements (z. B. Observation.component) unte
 C.) Um ein Element vollständig aus dem Profil zu entfernen.  
 D.) Um mehrere FHIR-Server miteinander zu synchronisieren.  
 
-***Bitte schreiben Sie die Antwort in eine Word-Datei oder in einer Text-Datei. Der jeweilige Buchstabe der Antwort reicht.***
+***Bitte schreiben Sie die Antwort in eine Word-Datei oder in eine Text-Datei. Der jeweilige Buchstabe der Antwort reicht.***
 
-### Aufgaben 2 - Analyse eines FHIR-Implementierungsleitfadens
+### Aufgabe 2 - Analyse eines FHIR-Implementierungsleitfadens
 Lesen Sie den [Use Case](usecase-german.html) aufmerksam durch, insbesondere die 
 Abschnitte **"Patientendaten"** und **"Laborresultate"**.
 
@@ -63,15 +63,15 @@ Analysieren Sie die im Implementierungsleitfaden enthaltenen [Profile](profiles.
 1.) Identifizieren Sie alle Abweichungen zwischen den fachlichen Anforderungen und den vorliegenden Profilen (Hinweis: Vergleich mit [CH Core Profile](https://fhir.ch/ig/ch-core/6.0.0/profiles.html)).  
 2.) Beschreiben Sie für jede gefundene Abweichung, welche konkrete Anpassung Sie vornehmen würden.
 
-💡 **Tipp:** Schau Sie im IG jeweils die **Snapshot-Table** des 
+💡 **Tipp:** Schauen Sie im IG jeweils die **Snapshot-Table** des
 Profils an (nicht nur die Differential-Ansicht), dort sehen Sie 
 alle Elemente der Ressource inklusive der von der Basisressource 
 geerbten Elemente, mit den effektiv geltenden Kardinalitäten und Datentypen.
 
 ***Bitte schreiben Sie die Antwort in eine Word-Datei oder in einer Text-Datei.***
 
-### Aufgaben 3 - Profilwahl und FSH-Modellierung
-Bestimmen Sie basierend auf den fachlichen Anforderungen von [3.2.3 Impfungen](https://pjolo.github.io/interview-case-study-ig/en/usecase-german.html#impfungen):
+### Aufgabe 3 - Profilwahl und FSH-Modellierung
+Bestimmen Sie basierend auf den fachlichen Anforderungen von [3.2.3 Impfungen](usecase-german.html#impfungen):
 
 1. Welche FHIR-Ressource(n) würden Sie als Basis für die Abbildung der Anforderung wählen? Begründen Sie Ihre Wahl.  
 2. Gibt es im Schweizer Kontext (CH Core) passende Profile, die Sie verwenden würden? Falls ja, welche? Falls nein, würden Sie ein eigenes Profil erstellen und worauf würden Sie es ableiten?  

@@ -7,7 +7,7 @@ id: ch.fhir.ig.ch-ig
 canonical: http://fhir.ch/ig/ch-ig
 name: CH_IG
 title: "Interview Case Study – FHIR Implementation Guide"
-description: Template for HL7.ch FHIR Implementation Guides
+description: Interview Case Study
 status: draft # draft | active | retired | unknown
 license: CC0-1.0
 copyright: CC0-1.0
